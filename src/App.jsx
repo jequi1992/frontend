@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react'
 import Datos from './Components/Datos_props';
+import { Auto } from './Components/Est_auto';
+import { Contar } from './Components/Est_count';
 import Func from './Components/Func_props';
 import Obj, { Xt } from './Components/Objeto_props';
 
@@ -28,6 +30,9 @@ const App = () => {
             <Obj info={user} />
             <Xt />
             <Func saludar = {saludar} info={user} />
+            <br/>
+            <Contar/>
+            <Auto />
         </>
 
     )
